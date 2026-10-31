@@ -1,0 +1,97 @@
+# Build
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+
+# Visual Studio / MSBuild
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.VC.db
+*.VC.VC.opendb
+*.pidb
+*.svclog
+*.ncb
+*.aps
+UpgradeLog*.xml
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# VS Code / Cursor (local)
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Test / coverage
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+TestResult.xml
+
+# Publish / packaging
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+publish/
+*.PublishSettings
+
+# OS junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Secrets / local env
+*.pfx
+*.snk
+*.env
+*.env.*
+!.env.example
